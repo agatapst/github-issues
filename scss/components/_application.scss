@@ -1,0 +1,17 @@
+.application {
+    width: 650px;
+    height: 500px;
+    border-radius: 9px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.application__sidebar {
+    width: 150px;
+    background: grey;
+}
+
+.application__content {
+    width: 500px;
+}

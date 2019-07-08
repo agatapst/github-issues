@@ -3,18 +3,36 @@
     height: 500px;
     border-radius: 9px;
     display: flex;
-}
+    overflow: hidden;
 
-.application__sidebar {
-    width: 150px;
-    background: $base-darkgrey;
+    &__sidebar {
+        width: 150px;
+        background: rgba($base-dark-grey, .95);
+    }
 
-    .filters__item {
-        color: $white;
+    &__content {
+        flex-grow: 1;
+        background: $base-light-grey;
     }
 }
 
-.application__content {
-    flex-grow: 1;
-    background: $base-lightgrey;
+.topbar {
+    height: 40px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    background: $base-dark-grey;
+
+    &__button {
+        width: 10px;
+        height: 10px;
+        padding: 0;
+        margin-right: 10px;
+        border: none;
+        border-radius: 5px; 
+
+        &--close { background-color: $light-red; }
+        &--hide { background-color: $light-yellow; }
+        &--expand { background-color: $light-green; }
+    }
 }

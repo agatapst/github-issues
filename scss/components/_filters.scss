@@ -1,0 +1,29 @@
+.filters {
+    &__item {
+        font-size: 14px;
+        text-decoration: none;
+        color: $white;
+        height: 50px;
+        padding: 0 15px;
+        display: flex;
+        align-items: center;
+
+        &--active, &:hover { 
+            background: $grey;
+        }
+    }
+
+    &__icon {
+        width: 16px;
+        height: 16px;
+        margin-right: 9px;
+    }
+
+    &__text {
+        flex-grow: 1;
+    }
+
+    &__counter {
+        color: $bluegrey;
+    }
+}

@@ -1,0 +1,25 @@
+.issues {
+    margin-bottom: 10px;
+
+    &__header {
+        font-size: 12px;
+        color: $bluegrey;
+        margin-bottom: 10px;
+    }
+}
+
+.issue {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: $white;
+    border: 1px solid $light-grey;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+
+    &__text {
+        font-size: 15px;
+        color: $black;
+    }
+}

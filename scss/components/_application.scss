@@ -2,16 +2,19 @@
     width: 650px;
     height: 500px;
     border-radius: 9px;
-    background: #ffffff;
     display: flex;
-    justify-content: space-between;
 }
 
 .application__sidebar {
     width: 150px;
-    background: grey;
+    background: $base-darkgrey;
+
+    .filters__item {
+        color: $white;
+    }
 }
 
 .application__content {
-    width: 500px;
+    flex-grow: 1;
+    background: $base-lightgrey;
 }

@@ -2,14 +2,14 @@
     &__item {
         font-size: 14px;
         text-decoration: none;
-        color: $white;
+        color: $sidebar-text-color;
         height: 50px;
         padding: 0 15px;
         display: flex;
         align-items: center;
 
         &--active, &:hover { 
-            background: $grey;
+            background: $active-bg-color;
         }
     }
 
@@ -24,6 +24,6 @@
     }
 
     &__counter {
-        color: $bluegrey;
+        color: $sidebar-counter-color;
     }
 }

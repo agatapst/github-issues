@@ -1,18 +1,31 @@
+$white: #ffffff;
+$white-smoke: #f6f6f6;
+$zircon: #e0e0e0;
+$oslo-gray: #8a8995;
+$steel-gray: #292A48;
+$cod-gray: #080606;
+$vulcan-gray: #101022;
+$dark-navy: #21233d;
+$carmine: #ff594f;
+$pastel-orange: #ffbc1b;
+$apple: #00cd46;
+
 //background colors:
-$base-light-grey: #f6f6f6;
-$base-dark-grey: #101022;
-$grey: #292A48;
+$main-bg-color: $white-smoke;
+$sidebar-bg-color: $vulcan-gray;
+$active-bg-color: $steel-gray;
 
 //text colors:
-$white: #ffffff;
-$bluegrey: #8a8995;
-$black: #080606;
+$sidebar-text-color: $white;
+$sidebar-counter-color: $oslo-gray;
+$issues-text-color: $cod-gray;
+$issues-header-color: $oslo-gray;
 
 // border colors
-$light-grey: #e0e0e0;
+$border-color: $zircon;
 
 // button colors
-$light-red: #ff594f;
-$light-yellow: #ffbc1b;
-$light-green: #00cd46;
-$dark-navy: #21233d
+$close-btn-color: $carmine;
+$hide-btn-color: $pastel-orange;
+$expand-btn-color: $apple;
+$star-btn-color: $dark-navy;

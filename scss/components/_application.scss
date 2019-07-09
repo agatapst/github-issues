@@ -7,12 +7,12 @@
 
     &__sidebar {
         width: 150px;
-        background: rgba($base-dark-grey, .95);
+        background: rgba($sidebar-bg-color, .95);
     }
 
     &__content {
         flex-grow: 1;
-        background: $base-light-grey;
+        background: $main-bg-color;
         padding: 10px 20px 10px 15px;
         overflow-y: scroll;
     }
@@ -23,7 +23,7 @@
     padding-left: 15px;
     display: flex;
     align-items: center;
-    background: $base-dark-grey;
+    background: $sidebar-bg-color;
 
     &__button {
         width: 10px;
@@ -33,8 +33,8 @@
         border: none;
         border-radius: 5px; 
 
-        &--close { background-color: $light-red; }
-        &--hide { background-color: $light-yellow; }
-        &--expand { background-color: $light-green; }
+        &--close { background-color: $close-btn-color; }
+        &--hide { background-color: $hide-btn-color; }
+        &--expand { background-color: $expand-btn-color; }
     }
 }

@@ -1,12 +1,12 @@
 .filters {
     &__item {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        padding: 0 15px;
         font-size: 14px;
         text-decoration: none;
         color: $sidebar-text-color;
-        height: 50px;
-        padding: 0 15px;
-        display: flex;
-        align-items: center;
 
         &--active, &:hover { 
             background: $active-bg-color;
@@ -14,9 +14,9 @@
     }
 
     &__icon {
+        margin-right: 9px;
         width: 16px;
         height: 16px;
-        margin-right: 9px;
     }
 
     &__text {

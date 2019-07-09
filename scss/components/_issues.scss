@@ -24,12 +24,7 @@
     }
 
     &__checkbox {
-        position: absolute;
-        left: -10000px;
-        top: auto;
-        width: 1px;
-        height: 1px;
-        overflow: hidden;
+        @include accessibility-visually-hidden;
 
         &:checked ~ .issue__fav {
             fill: $star-btn-color;

@@ -4,6 +4,7 @@
     border-radius: 9px;
     display: flex;
     overflow: hidden;
+    box-shadow: 0 0 15px rgba($shadow-color, .5);
 
     &__sidebar {
         width: 150px;

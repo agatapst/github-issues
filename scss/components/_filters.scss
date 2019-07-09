@@ -3,7 +3,7 @@
         display: flex;
         align-items: center;
         height: 50px;
-        padding: 0 15px;
+        padding: 0 5px 0 15px;
         font-size: 14px;
         text-decoration: none;
         color: $sidebar-text-color;
@@ -24,6 +24,9 @@
     }
 
     &__counter {
+        display: inline-block;
+        text-align: center;
+        width: 32px;
         color: $sidebar-counter-color;
     }
 }

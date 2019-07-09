@@ -23,16 +23,16 @@
 
 .topbar {
     display: flex;
-    padding: 16px 0 0 15px;
     height: 40px;
+    padding: 16px 0 0 15px;
     background: $sidebar-bg-color;
 
     &__button {
-        width: 10px;
-        height: 10px;
         margin-right: 10px;
         border: none;
         border-radius: 5px; 
+        width: 10px;
+        height: 10px;
         padding: 0;
 
         &--close { background-color: $close-btn-color; }

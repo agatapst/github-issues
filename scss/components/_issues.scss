@@ -22,4 +22,24 @@
         font-size: 15px;
         color: $black;
     }
+
+    &__checkbox {
+        position: absolute;
+        left: -10000px;
+        top: auto;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+
+        &:checked ~ .issue__fav {
+            fill: $dark-navy;
+            stroke: none; 
+        }
+    }
+
+    &__fav {
+        cursor: pointer;
+        fill: none;
+        stroke: $light-grey;
+    }
 }
